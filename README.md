@@ -2,7 +2,7 @@
 
 > **Disclaimer:** This prototype only contains a few questions with random aspects (not balanced) of DISC* spectrum; the real test is extensive and accurate in answers weights. This project aims to show the power of DISC capabilities associated a modern tool to a Human Resource recruiting Team, reducing the time to select and classify possible candidates for a job offer, reducing time, avoiding unnecessary in-person or phone interviews and choosing the right person with the proper behaviour at a specific position. As a result the company reduce its turn over.
 
-##### People are hired chiefly based on their professional skills but fired based on their behaviour.
+#### "People are hired chiefly based on their professional skills but fired based on their behaviour."
 
 **Questions like:** What motivated you to apply to this company?, Describe two accomplishments you were proud of in your last role?, How have you overcome conflicts when working with a challenging team member? Why did you leave your last job? What are your strengths and weaknesses? What are your values and what do you want to do in the future? Where did you see you in five years?
 
