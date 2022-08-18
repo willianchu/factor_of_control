@@ -1,6 +1,6 @@
 # Factor Of Control
 
-> **Disclaimer:** This prototype only contains two empirical and exaggerated questions with random aspects of DISC* spectrum; the real test is more extensive and more accurate in answers weights. This project aims to show the power of DISC capabilities in reducing the time to select and classify possible candidates for a job offer, reducing time, avoiding unnecessary in-person or phone interviews and choosing the right person with the proper behaviour at a specific position. As a result the company reduce the turn over.
+> **Disclaimer:** This prototype only contains only two questions with random aspects of DISC* spectrum; the real test is extensive and accurate in answers weights. This project aims to show the power of DISC capabilities in reducing the time to select and classify possible candidates for a job offer, reducing time, avoiding unnecessary in-person or phone interviews and choosing the right person with the proper behaviour at a specific position. As a result the company reduce the turn over.
 
 ##### People are hired chiefly based on their professional skills but fired based on their behaviour.
 
