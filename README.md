@@ -13,7 +13,7 @@ All of these questions in the actual interviews scenarios will generate a positi
 
 The DiSC test is a personality test that is one of the most well known and commonly used. It determines your personality profile based on the DiSC types. We have outlined these below:
 
- ![DISC](/docs/DISC.png)
+ ![DISC](./docs/DISC.png)
 
 D: Dominance
 Types of behaviours include: focus on achieving results, confidence, seeks a challenge, straight to the point
