@@ -1,12 +1,12 @@
 # Factor Of Control (in Course)
 
-> **Disclaimer:** This prototype only contains a few questions with random aspects (not balanced) of DISC* spectrum; the real test is extensive and accurate in answers weights. This project aims to show the power of DISC capabilities associated a modern tool to a Human Resource recruiting Team, reducing the time to select and classify possible candidates for a job offer, reducing time, avoiding unnecessary in-person or phone interviews and choosing the right person with the proper behaviour at a specific position. As a result the company reduce its turn over.
+> **Disclaimer:** This prototype only contains a few questions with random aspects (not balanced) of the DISC* spectrum; the real test is extensive and accurate in the weights. This project aims to show the power of DISC capabilities associated with a modern tool. Now, the recruiting Team will be able to reduce the time to select and classify possible candidates for a job offer, reducing time, avoiding unnecessary in-person or phone interviews and choosing the right person with the proper behaviour for a specific position. As a result, the company reduces its turnover.
 
-#### "People are hired chiefly based on their professional skills but fired based on their behaviour."
+### "People are hired chiefly based on their professional skills but fired based on their behaviour."
 
-**Questions like:** What motivated you to apply to this company?, Describe two accomplishments you were proud of in your last role?, How have you overcome conflicts when working with a challenging team member? Why did you leave your last job? What are your strengths and weaknesses? What are your values and what do you want to do in the future? Where did you see you in five years?
+**Questions like:** What motivated you to apply to this company? Describe two accomplishments you were proud of in your last role. How have you overcome conflicts when working with a challenging team member? Why did you leave your previous job? What are your strengths and weaknesses? What are your values, and what do you want to do in the future? Where did you see yourself in five years?
 
-All of these questions in the actual interviews scenarios will generate a positive or a negative impression for each candidate based on the feeling of the interviewer perspective (sometimes stressed, overloaded, in a high pace demand, tight deadlines etc). With the help of the DISC algorithm you will be precise saying something like this candidate has a 82.56% match with the job behaviour expectations.
+All of these questions in the actual interview scenarios will generate a positive or a negative impression for each candidate based on the feeling of the interviewer's perspective (sometimes stressed, overloaded, in a high pace demand, tight deadlines etc.). So with the help of the DISC algorithm, you will be precise in saying that this candidate has an 82.56% match with the job behaviour expectations.
 
 
 ## DISC
