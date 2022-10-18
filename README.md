@@ -27,6 +27,12 @@ Types of behaviours include: calm, supportive to others, focus on cooperation, d
 C: Conscientiousness
 Types of behaviours include: focus on detail, thorough, likes accuracy and independency
 
+## Specifications
+
+- The App scramble the lists of DISC items randomly
+- Allow the candidate drag and drop an item to a different position as he prioritize the items
+- Button to check (in development, will be submit in production) show to RH the results
+
 
 # Getting Started with Create React App
 
