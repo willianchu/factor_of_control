@@ -7,10 +7,9 @@ const QuestionnaireListPage = () => {
     <>
       <h1>Questionnaire List</h1>
       {questionnaires.map(questionnaire => (
-        <Link className="questionnaire-list-item" to={`/questionnaires/${questionnaire.name}`}>
-          <h3 key={questionnaire.name}>
-            <h3>{questionnaire.title}</h3>
-          </h3>
+        <Link key={questionnaire.name} className="questionnaire-list-item" to={`/questionnaires/${questionnaire.name}`}>
+          <h3>{questionnaire.title}</h3>
+          <p></p>
         </Link>
       ))}   
     </>

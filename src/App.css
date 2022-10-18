@@ -60,9 +60,10 @@ nav a:hover {
   text-decoration: none;
   color: black;
   padding: 16px 0 0 0;
+  
 }
 
-.article-list-item p {
+.questionnaire-list-item h3 {
   padding-bottom: 32px;
   border-bottom: 2px solid black;
 }
