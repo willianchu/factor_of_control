@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './NavBar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -10,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1> Behaviour DISC Test</h1>
+        <NavBar />
         <div id="page-body">
           The Disc Test
           <Routes>
