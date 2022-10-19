@@ -1,17 +1,12 @@
-import { Link } from 'react-router-dom';
-import questionnaires from '../data/Questionnaires-Content';
+import QuestionnairesList from '../components/QuestionnairesList';
+import data from '../data/Questionnaires-Content';
 
 const QuestionnaireListPage = () => {
-  
+  console.log("outside",data);
   return (
     <>
       <h1>Questionnaire List</h1>
-      {questionnaires.map(questionnaire => (
-        <Link key={questionnaire.name} className="questionnaire-list-item" to={`/questionnaires/${questionnaire.name}`}>
-          <h3>{questionnaire.title}</h3>
-          <p></p>
-        </Link>
-      ))}   
+      <QuestionnairesList questionnaires={data} />
     </>
   );
 };
