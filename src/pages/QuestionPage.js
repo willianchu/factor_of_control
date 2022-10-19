@@ -1,9 +1,15 @@
 import { useParams } from "react-router-dom";
 import questionnaires from "../data/Questionnaires-Content";
+import NotFoundPage from "./NotFoundPage";
 
 const QuestionPage = () => {
   const { questionnaireId } = useParams();
   const questionnaire = questionnaires.find(question => question.name === questionnaireId);
+  
+  if(!questionnaire) {
+    return <NotFoundPage />
+  }
+
   return (
     <div>
       <h1>{questionnaire.title}</h1>
