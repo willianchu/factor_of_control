@@ -1,34 +1,43 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import questionnaires from "../data/Questionnaires-Content";
+import axios from "axios";
 import NotFoundPage from "./NotFoundPage";
+import AnswersList from "../components/AnswersList";
+import questionnaires from "../data/Questionnaires-Content";
 
 const QuestionPage = () => {
+  const { questionnaireId } = useParams();
   const [answer, setAnswer] = useState({index: 0, answers: []});
 
   useEffect(() => {
-    setAnswer({index: 10, answers: []});
+    const loadQuestionnaire = async () => {
+    const response = await axios.get(`/api/questionnaires/${questionnaireId}`);
+    const newInfo = response.data;
+    console.log("newInfo",newInfo);
+    setAnswer(newInfo);
+    }
+    // call async function inside useEffect manoeuver
+    loadQuestionnaire();
+    console.log("useEffect");
   }, []);
   
-  const { questionnaireId } = useParams();
   const questionnaire = questionnaires.find(question => question.name === questionnaireId);
   
   if(!questionnaire) {
     return <NotFoundPage />
   }
-
+  console.log(answer);
   return (
-    <div>
+    <>
       <h1>{questionnaire.title}</h1>
       <p>This index is {answer.index} !!. </p>
-      <p>This answer is {answer.answers[0]} !!. </p>
-      {questionnaire.content.map((question, index) => (
+        {questionnaire.content.map((question, index) => (
         <div key={index}>
           <p>{question}</p>
-          
         </div>
       ))}
-    </div>
+      <AnswersList answers={answer.answers} />
+    </>
   );
 };
 
