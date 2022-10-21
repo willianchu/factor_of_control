@@ -18,7 +18,7 @@ const CreateAccountPage = () => {
             }
 
             await createUserWithEmailAndPassword(getAuth(), email, password);
-            navigate('/articles');
+            navigate('/questionnaires');
         } catch (e) {
             setError(e.message);
         }
